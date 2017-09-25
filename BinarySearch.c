@@ -16,7 +16,7 @@ p=mid;
 break;
 }
 else{
-if(a[mid]<a[mid+1] && a[mid]>a[mid-1]){
+if(a[mid]<a[mid+1] && a[mid]>a[high]){
 low=mid+1;
 }
 else{
