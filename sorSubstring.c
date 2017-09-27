@@ -21,13 +21,13 @@ printf("%c ",(char)(a[k]+97));
 }
 printf("\n");*/
 
-int t;
-scanf("%d",&t);
+int t;			//num of testcases
+scanf("%d",&t);	
 while(t>0){
 char s[10000];
 scanf("%s",s);
 int n,m,k,j,count=0;
-scanf("%d",&n);
+scanf("%d",&n);			//range from n to m(inclusive)
 scanf("%d",&m);
 while(s[count]!='\000'){
 ++count;
